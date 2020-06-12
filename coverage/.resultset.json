@@ -3,7 +3,19 @@
     "coverage": {
       "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/spec/requests/delete_parks_spec.rb": {
         "lines": [
-          1
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
         ]
       },
       "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/spec/rails_helper.rb": {
@@ -353,9 +365,9 @@
           null,
           null,
           1,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
           null,
           null,
           null,
@@ -451,6 +463,6 @@
         ]
       }
     },
-    "timestamp": 1591984265
+    "timestamp": 1591986906
   }
 }
