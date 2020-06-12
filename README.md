@@ -1,24 +1,53 @@
-# README
+# _Parks API_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### _A practice application using Ruby & Rails. 6.12.2020_
 
-Things you may want to cover:
+#### By _**Allison Mackey**_
 
-* Ruby version
+## Description
 
-* System dependencies
+_This application will allow a user to retrieve information from it by using the calls listed below in an app.
 
-* Configuration
+## Setup/Installation Requirements
 
-* Database creation
+* _View this project on Heroku here:_
+* _Clone Repository from GitHub :  https://github.com/amackey693/Week13Review_
+* _Navigate to your terminal & use the command **code .**_ this will open all files associated with this app._
+* _Before you initialize GIT, be sure to delete the already exisiting .git file by running this command in your terminal $rm -rf .git_
+* _Don't forget to run bundle install to create your Gemfile.lock as well._
+* _Create your own repository and push new changes to GitHub_
 
-* Database initialization
+## Behavior Driven Development 
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+|   Behavior Description        |
+|-------------------------------|
+| 1. []|
+| 2. []|
+| 3. []|
+| 4. []|
+| 5. []|
+| 6. []|
+| 7. []|
+| 8. []|
+| 9. []|
+| 10.[]|
 
-* Deployment instructions
+## Known Bugs
 
-* ...
+_No known bugs at this time_
+
+## Support and contact details
+
+_If you have any questions or any issues please feel free to submit an issue here: https://github.com/amackey693/Week13Review/issues_
+
+## Technologies Used
+
+_Ruby, Rails, Gem, Pry, Capybara, ShouldaMatchers_ 
+
+
+### Licenses
+*MIT LICENSE*
+
+Copyright (c) 2020 **_Allison Mackey_**
+
