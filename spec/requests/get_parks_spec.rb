@@ -31,4 +31,10 @@ describe 'search path' do
     get '/search?query=test'
     expect(JSON.parse(response.body).size).to eq(1)
   end
+
+  it 'returns message when search result returns no matches' do
+    get '/search?query=testing123'
+    expect(response).to have_http_status(200)
+    expect(JSON.parse(response.body)['message']).to eq("It doesn't look like your search returned any results, please try again")
+  end
 end
