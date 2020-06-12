@@ -3,8 +3,7 @@ require 'rails_helper'
 describe 'get all parks route' do
   before { get '/parks' }
   it 'returns all parks' do
-    # expect(JSON.parse(response.body).size).to eq(200)
-    expect(JSON.parse(response.body).size).to eq(15)
+    expect(JSON.parse(response.body).size).to eq(200)
   end
 
   it 'returns status code 200' do
@@ -36,6 +35,6 @@ describe 'search path' do
   it 'returns message when search result returns no matches' do
     get '/search?query=testing123'
     expect(response).to have_http_status(200)
-    expect(JSON.parse(response.body)['message']).to eq("It doesn't look like your search returned any results, please try again")
+    expect(JSON.parse(response.body)['message']).to eq("It doesn't look like your search for testing123 returned any results, please try again")
   end
 end

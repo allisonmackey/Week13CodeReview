@@ -11,37 +11,34 @@ _This application will allow a user to retrieve information from it by using the
 
 ## Setup/Installation Requirements
 _See detailed setup instructions [here](INSTALL.md)_
-* _View this project & make API calls from here: https://frozen-sea-48679.herokuapp.com/parks_
-* _View Repository from GitHub :  https://github.com/amackey693/Week13Review_
+
+* _View this project live on Heroku [here](https://frozen-sea-48679.herokuapp.com/parks)_
+* _View & Clone Repository on GitHub [here](https://github.com/amackey693/Week13Review)_
 
 
 ---
 
 ## API Routes & Endpoints
+Click links to see live examples of request data
+<p>download & make api call requests to your local server with PostMan or send requests to the live server <a href="https://frozen-sea-48679.herokuapp.com/">here</a><p>
 
-
-
-|   API Requests w/ Heroku Live App  |
+| GET Request Endpoints|
 |-------------------------------|
-| **GET Request End Points**                   |
-| _returns all parks:_ |  
-|https://frozen-sea-48679.herokuapp.com/parks |
-| _navigate parks by a page of 15 results at a time:_ |
-| https://frozen-sea-48679.herokuapp.com/page?number=[enter_page_1-14]	|
-| _returns a specific park based on id:_      |
-| https://frozen-sea-48679.herokuapp.com/parks/[:id] |
-| **SEARCH End Point** |
-| _returns results based off of search term:_
-| https://frozen-sea-48679.herokuapp.com/search?query=[:search_term] |
-| **examples:**| 
-| _to find all state parks:_ https://frozen-sea-48679.herokuapp.com/search?query=state |
-| _to find all national parks:_ https://frozen-sea-48679.herokuapp.com/search?query=national |
-| **RANDOM Endpoint**|
-| _returns a random park each time you submit a request:_
-| https://frozen-sea-48679.herokuapp.com/random
-| **POST Requests Endpoints**                  |
-| _create a new park **params required: name, address, website, phone number, and open (boolean)**_ |
-| https://frozen-sea-48679.herokuapp.com/parks/[:enter_all_required_params]
+| - GET [/parks](https://frozen-sea-48679.herokuapp.com/parks) returns all parks| 
+| - GET [/page?number=[enter_page_1-14]](https://frozen-sea-48679.herokuapp.com/page?number=1) navigate parks by page, 15 results at a time |
+| - GET [/parks/:id](https://frozen-sea-48679.herokuapp.com/parks/200 ) returns a specific park based on :id number
+| SEARCH Endpoint |
+| - GET [/parks/search?query=[search_term]](https://frozen-sea-48679.herokuapp.com/search?query=washington) returns results based off of search term
+| - GET [/search?query=state](https://frozen-sea-48679.herokuapp.com/search?query=state) to find all state parks **or** [/search?query=national](https://frozen-sea-48679.herokuapp.com/search?query=national) to find all national parks |
+| RANDOM Endpoint|
+| - GET [/random]( https://frozen-sea-48679.herokuapp.com/random) returns a random park each time you submit a request
+
+<br>
+
+| POST Requests Endpoints               |
+|-------------------------------|
+| POST [parks/[:enter_all_required_params]] creates a new park **params required: name, address, website, phone number, and open (boolean)**_ |
+| https://frozen-sea-48679.herokuapp.com/parks/
 | **PATCH Request Endpointss**             |
 | _update a park by :id **at least one param required: name, address, website, phone number, and open (boolean)**_|
 | https://frozen-sea-48679.herokuapp.com/parks/[:id]/[:enter_params_to_update]| 

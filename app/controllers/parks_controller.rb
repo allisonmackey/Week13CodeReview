@@ -23,7 +23,7 @@ class ParksController < ApplicationController
       json_response(@parks)
     else
       render status: 200, json: {
-        message: "It doesn't look like your search returned any results, please try again"
+        message: "It doesn't look like your search for #{params[:query]} returned any results, please try again"
       }
     end
 
