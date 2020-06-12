@@ -29,7 +29,7 @@ class ParksController < ApplicationController
       render status: 200, json: {
         message: "You've successfully deleted this park"
       }
-    
+    end
   end
 
   private
@@ -37,7 +37,7 @@ class ParksController < ApplicationController
   def park_params
     params.permit(:name, :address, :website, :phone_number, :open)
   end
-  
+
   def json_response(object, status = :ok)
     render json: object, status: status
   end
