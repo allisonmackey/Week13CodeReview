@@ -21,14 +21,15 @@ _This application will allow a user to retrieve information from it by using the
 * _Attempted to create documentation using swagger inspector tool: https://app.swaggerhub.com/apis-docs/amackey693/live_site_parks_api/0.1_
 (didn't fully understand)
 
-|   API Call Routes             |
+|   API Call Routes through Live App  |
 |-------------------------------|
 | GET Routes                    |
 | https://frozen-sea-48679.herokuapp.com/parks |
-| returns all parks             |
+| returns 15 parks, navigate pages by entering the line below   |
+| https://frozen-sea-48679.herokuapp.com/page?number=[enter_page_1-14]	|
 | https://frozen-sea-48679.herokuapp.com/parks/[:id] |
 | returns a specific park       |
-| http://localhost:3000/search?query=[:search_term] |
+| http:/ https://frozen-sea-48679.herokuapp.com/search?query=[:search_term] |
 | returns results based off of search term | 
 | POST Routes                   |
 | https://frozen-sea-48679.herokuapp.com/parks/[:enter_all_required_params]
@@ -42,6 +43,8 @@ _This application will allow a user to retrieve information from it by using the
 |-------------------------------|
 | https://frozen-sea-48679.herokuapp.com/parks/[:id] | deletes a park |
 
+
+http://localhost:3000/search?query=[:search_term] |
 
 ## Known Bugs
 
