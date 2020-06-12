@@ -22,5 +22,13 @@ describe 'get an individual park route' do
     expect(response).to have_http_status(404)
     expect(JSON.parse(response.body)['message']).to eq("Couldn't find Park with 'id'=1")
   end
+
 end
-  
+
+describe 'search path' do
+ 
+  # it 'returns all state parks based on search query' do
+  #   get '/search?query=state&park'
+  #   expect(JSON.parse(response.body)).to eq('State Park')
+  # end
+end
