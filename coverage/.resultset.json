@@ -334,8 +334,8 @@
           null,
           null,
           1,
-          0,
-          0,
+          1,
+          1,
           null,
           null,
           1,
@@ -368,7 +368,7 @@
           null,
           null,
           1,
-          2,
+          3,
           null,
           null
         ]
@@ -409,16 +409,6 @@
       },
       "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/spec/requests/get_parks_spec.rb": {
         "lines": [
-          1
-        ]
-      },
-      "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/spec/requests/patch_parks_spec.rb": {
-        "lines": [
-          1
-        ]
-      },
-      "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/spec/requests/post_parks_spec.rb": {
-        "lines": [
           1,
           null,
           1,
@@ -432,10 +422,29 @@
           null,
           null,
           null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/spec/requests/patch_parks_spec.rb": {
+        "lines": [
+          1
+        ]
+      },
+      "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/spec/requests/post_parks_spec.rb": {
+        "lines": [
+          1,
+          null,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1591983615
+    "timestamp": 1591983891
   }
 }
