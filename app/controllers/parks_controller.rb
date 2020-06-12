@@ -9,6 +9,14 @@ class ParksController < ApplicationController
     json_response(@parks)
   end
 
+  def random
+    @first = Park.first.id
+    @last = Park.all.count + @first
+    @random_id = rand(@first...@last)
+    @park = Park.find(@random_id)
+    json_response(@park)
+  end
+
   def search 
     @parks = Park.search_by_term(params[:query])
     if @parks.any?

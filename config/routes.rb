@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root to: 'parks#index'
   get '/search' => 'parks#search'
   get '/page' => 'parks#page'
+  get '/random' => 'parks#random'
 end
