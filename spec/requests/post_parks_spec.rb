@@ -11,4 +11,13 @@ describe "post park route", :type => :request do
 
   end
 end
+
+describe "exceptions on POST park route" do
+  it 'returns an error if all params are not filled out' do
+    post '/parks', params: {:name => "test park", :address => "test address", :website => "test website", :phone_number => "111-222-3333"}
+  
+    expect(JSON.parse(response.body)['message']).to eq("Validation failed: Open can't be blank")
+    expect(response).to have_http_status(422)
+  end
+end
     
