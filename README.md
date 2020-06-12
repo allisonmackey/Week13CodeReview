@@ -37,13 +37,19 @@ Click links to see live examples of request data
 
 | POST Requests Endpoints               |
 |-------------------------------|
-| POST [parks/[:enter_all_required_params]] creates a new park **params required: name, address, website, phone number, and open (boolean)**_ |
-| https://frozen-sea-48679.herokuapp.com/parks/
-| **PATCH Request Endpointss**             |
-| _update a park by :id **at least one param required: name, address, website, phone number, and open (boolean)**_|
-| https://frozen-sea-48679.herokuapp.com/parks/[:id]/[:enter_params_to_update]| 
+| POST ```/parks/[:enter_all_required_params]``` creates a new park **params required: name, address, website, phone number, and open (boolean)**|
+
+<br>
+
+| **PATCH/PUT Request Endpointss**             |
+|-------------------------------|
+| PATCH/PUT ```/parks/:id/[:enter_params_to_update]``` updates a park by :id **at least one param required: name, address, website, phone number, and open (boolean)**|
+
+<br>
+
 | **DELETE Requests Endpoints**                |
-| _deletes a park_ : https://frozen-sea-48679.herokuapp.com/parks/[:id] | 
+|-------------------------------|
+| DELETE ```/parks/:id``` deletes a park    |
 
 
 
