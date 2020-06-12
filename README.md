@@ -1,5 +1,4 @@
 # _Parks API_
-
 #### _A practice application using Ruby & Rails. 6.12.2020_
 
 #### By _**Allison Mackey**_
@@ -8,20 +7,21 @@
 
 _This application will allow a user to retrieve information from it by using the calls listed below in an app._
 
+---
+
 ## Setup/Installation Requirements
-
+_See detailed setup instructions [here](INSTALL.md)_
 * _View this project & make API calls from here: https://frozen-sea-48679.herokuapp.com/parks_
-* _Clone Repository from GitHub :  https://github.com/amackey693/Week13Review_
-* _Navigate to your terminal & use the command **code .**_ this will open all files associated with this app._
-* _Before you initialize GIT, be sure to delete the already exisiting .git file by running this command in your terminal $rm -rf .git_
-* _Don't forget to run bundle install to create your Gemfile.lock as well._
-* _Create your own repository and push new changes to GitHub_
+* _View Repository from GitHub :  https://github.com/amackey693/Week13Review_
 
-## API Routes
-* _Attempted to create documentation using swagger inspector tool: https://app.swaggerhub.com/apis-docs/amackey693/live_site_parks_api/0.1_
-(didn't fully understand)
 
-|   API Requests through Live App  |
+---
+
+## API Routes & Endpoints
+
+
+
+|   API Requests w/ Heroku Live App  |
 |-------------------------------|
 | **GET Request End Points**                   |
 | _returns all parks:_ |  
