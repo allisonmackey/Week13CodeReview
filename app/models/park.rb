@@ -1,3 +1,2 @@
-class Park < ApplicationController
-  
+class Park < ApplicationRecord
 end
