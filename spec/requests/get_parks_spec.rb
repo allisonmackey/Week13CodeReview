@@ -16,5 +16,11 @@ describe 'get an individual park route' do
     get "/parks/400"
     expect(JSON.parse(response.body)['name']).to eq("Richesse National Park")
   end
+
+  it 'returns an error when fetching a park that does not exist' do
+    get '/parks/1' 
+    expect(response).to have_http_status(404)
+    expect(JSON.parse(response.body)['message']).to eq("Couldn't find Park with 'id'=1")
+  end
 end
   
