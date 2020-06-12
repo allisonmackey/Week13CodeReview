@@ -10,4 +10,12 @@ describe "delete park route" do
       expect(response).to have_http_status(200)
       expect(JSON.parse(response.body)['message']).to eq("You've successfully deleted this park")
     end
+
+    it 'will return an error message if user deletes an item that does not exist' do
+      delete "/parks/#{@test_park.id}"
+      # have to run delete twice do to the before block
+      delete "/parks/#{@test_park.id}"
+      expect(response).to have_http_status(404)
+      expect(JSON.parse(response.body)['message']).to eq("Couldn't find Park with 'id'=#{@test_park.id}")
+    end
 end
