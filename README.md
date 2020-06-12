@@ -56,7 +56,7 @@ _If you have any questions or any issues please feel free to submit an issue her
 
 ## Technologies Used
 
-_Ruby, Rails, Gem, Pry, Capybara, ShouldaMatchers_ 
+_Ruby, Rails, Gem, Pry, ShouldaMatchers_ 
 
 
 ### Licenses
