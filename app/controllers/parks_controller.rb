@@ -1,6 +1,6 @@
 class ParksController < ApplicationController
   def index
-    @parks = Park.all
+    @parks = Park.all.sorted_by_name
     json_response(@parks)
   end
 
