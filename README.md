@@ -21,30 +21,30 @@ _This application will allow a user to retrieve information from it by using the
 * _Attempted to create documentation using swagger inspector tool: https://app.swaggerhub.com/apis-docs/amackey693/live_site_parks_api/0.1_
 (didn't fully understand)
 
-|   API Call Routes through Live App  |
+|   API Requests through Live App  |
 |-------------------------------|
-| GET Routes                    |
-| https://frozen-sea-48679.herokuapp.com/parks |
-| returns 15 parks, navigate pages by entering the line below   |
+| **GET Requests**                   |
+| _returns all parks:_ |  
+|https://frozen-sea-48679.herokuapp.com/parks |
+| _navigate parks by a page of 15 results at a time:_ |
 | https://frozen-sea-48679.herokuapp.com/page?number=[enter_page_1-14]	|
+| _returns a specific park based on id:_      |
 | https://frozen-sea-48679.herokuapp.com/parks/[:id] |
-| returns a specific park       |
-| http:/ https://frozen-sea-48679.herokuapp.com/search?query=[:search_term] |
-| returns results based off of search term | 
-| POST Routes                   |
+| https://frozen-sea-48679.herokuapp.com/search?query=[:search_term] |
+| _returns results based off of search term **examples:**_ | 
+| _to find all state parks:_ https://frozen-sea-48679.herokuapp.com/search?query=state |
+| _to find all national parks:_ https://frozen-sea-48679.herokuapp.com/search?query=national |
+| **POST Requests**                  |
+| _create a new park **params required: name, address, website, phone number, and open (boolean)**_ |
 | https://frozen-sea-48679.herokuapp.com/parks/[:enter_all_required_params]
-| creates a new park params required: name, address, website, phone number, and open (boolean) |
-|-------------------------------|
-| PATCH Routes                  |
-|-------------------------------|
-| https://frozen-sea-48679.herokuapp.com/parks/[:id]/[:enter_params_to_update]| creates a new park params required: name, address, website, phone number, and open (boolean)      |
-|-------------------------------|
-| DELETE Routes                 |
-|-------------------------------|
-| https://frozen-sea-48679.herokuapp.com/parks/[:id] | deletes a park |
+| **PATCH Requests**             |
+| _update a park by :id **at least one param required: name, address, website, phone number, and open (boolean)**_|
+| https://frozen-sea-48679.herokuapp.com/parks/[:id]/[:enter_params_to_update]| 
+| **DELETE Requests**                |
+| _deletes a park_ : https://frozen-sea-48679.herokuapp.com/parks/[:id] | 
 
 
-http://localhost:3000/search?query=[:search_term] |
+
 
 ## Known Bugs
 
