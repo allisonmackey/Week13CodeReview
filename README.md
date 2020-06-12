@@ -6,32 +6,39 @@
 
 ## Description
 
-_This application will allow a user to retrieve information from it by using the calls listed below in an app.
+_This application will allow a user to retrieve information from it by using the calls listed below in an app._
 
 ## Setup/Installation Requirements
 
-* _View this project on Heroku here:_
+* _View this project & make API calls from here: https://frozen-sea-48679.herokuapp.com/parks_
 * _Clone Repository from GitHub :  https://github.com/amackey693/Week13Review_
 * _Navigate to your terminal & use the command **code .**_ this will open all files associated with this app._
 * _Before you initialize GIT, be sure to delete the already exisiting .git file by running this command in your terminal $rm -rf .git_
 * _Don't forget to run bundle install to create your Gemfile.lock as well._
 * _Create your own repository and push new changes to GitHub_
 
-## Behavior Driven Development 
+## API Routes
 
 
-|   Behavior Description        |
+|   API Call Routes             |
 |-------------------------------|
-| 1. []|
-| 2. []|
-| 3. []|
-| 4. []|
-| 5. []|
-| 6. []|
-| 7. []|
-| 8. []|
-| 9. []|
-| 10.[]|
+| GET Routes                    |
+| https://frozen-sea-48679.herokuapp.com/parks |
+| returns all parks             |
+| https://frozen-sea-48679.herokuapp.com/parks/[:id] |
+| returns a specific park       |
+| POST Routes                   |
+| https://frozen-sea-48679.herokuapp.com/parks/[:enter_all_required_params]
+| creates a new park params required: name, address, website, phone number, and open (boolean) |
+|-------------------------------|
+| PATCH Routes                  |
+|-------------------------------|
+| https://frozen-sea-48679.herokuapp.com/parks/[:id]/[:enter_params_to_update]| creates a new park params required: name, address, website, phone number, and open (boolean)      |
+|-------------------------------|
+| DELETE Routes                 |
+|-------------------------------|
+| https://frozen-sea-48679.herokuapp.com/parks/[:id] | deletes a park |
+
 
 ## Known Bugs
 
