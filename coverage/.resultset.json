@@ -1,27 +1,16 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/spec/requests/delete_parks_spec.rb": {
+      "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/spec/models/park_spec.rb": {
         "lines": [
           1,
           null,
           1,
-          1,
+          2,
+          2,
+          2,
           2,
           null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
           null,
           null
         ]
@@ -450,6 +439,31 @@
           null
         ]
       },
+      "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/spec/requests/delete_parks_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/spec/requests/get_parks_spec.rb": {
         "lines": [
           1,
@@ -545,6 +559,6 @@
         ]
       }
     },
-    "timestamp": 1591991602
+    "timestamp": 1591993784
   }
 }

@@ -18,7 +18,8 @@ _This application will allow a user to retrieve information from it by using the
 * _Create your own repository and push new changes to GitHub_
 
 ## API Routes
-
+* _Attempted to create documentation using swagger inspector tool: https://app.swaggerhub.com/apis-docs/amackey693/live_site_parks_api/0.1_
+(didn't fully understand)
 
 |   API Call Routes             |
 |-------------------------------|
