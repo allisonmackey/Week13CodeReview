@@ -4,6 +4,11 @@ class ParksController < ApplicationController
     json_response(@parks)
   end
 
+  def search 
+    @parks = Park.search_by_term(params[:query])
+    json_response(@parks)
+  end
+  
   def show
     @park = Park.find(params[:id])
     json_response(@park)
