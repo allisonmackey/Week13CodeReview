@@ -10,4 +10,10 @@ describe 'update park route' do
     expect(JSON.parse(response.body)['message']).to eq("This park has been successfully updated")
     expect(response).to have_http_status(200)
   end
+
+  # it 'will return an error message if update param is not filled out' do
+  #   patch "/parks/#{@test_park.id}", params: {name: nil}
+  #   expect(JSON.parse(response.body)['message']).to eq("Validation failed: Name can't be blank")
+  #   expect(response).to have_http_status(422)
+  # end
 end
