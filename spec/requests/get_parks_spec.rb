@@ -26,8 +26,6 @@ describe 'get an individual park route' do
 end
 
 describe 'search path' do
-  
-
   it 'returns all state parks based on search query' do
     test_park = Park.create!({name: "Test Park", address: "Test Address", website: "testwebsite.com", phone_number: "503-123-1234", open: true})
     get '/search?query=test'

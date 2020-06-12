@@ -27,6 +27,8 @@ _This application will allow a user to retrieve information from it by using the
 | returns all parks             |
 | https://frozen-sea-48679.herokuapp.com/parks/[:id] |
 | returns a specific park       |
+| http://localhost:3000/search?query=[:search_term] |
+| returns results based off of search term | 
 | POST Routes                   |
 | https://frozen-sea-48679.herokuapp.com/parks/[:enter_all_required_params]
 | creates a new park params required: name, address, website, phone number, and open (boolean) |

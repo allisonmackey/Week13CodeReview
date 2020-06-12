@@ -6,7 +6,14 @@ class ParksController < ApplicationController
 
   def search 
     @parks = Park.search_by_term(params[:query])
-    json_response(@parks)
+    if @parks.any?
+      json_response(@parks)
+    else
+      render status: 200, json: {
+        message: "It doesn't look like your search returned any results, please try again"
+      }
+    end
+
   end
   
   def show
