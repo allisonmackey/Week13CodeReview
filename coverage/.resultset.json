@@ -330,7 +330,7 @@
           null,
           null,
           1,
-          0,
+          1,
           null,
           null,
           null
@@ -366,7 +366,7 @@
           1,
           2,
           2,
-          2,
+          1,
           null,
           null,
           null,
@@ -388,7 +388,7 @@
           null,
           null,
           1,
-          5,
+          6,
           null,
           null
         ]
@@ -416,6 +416,7 @@
       },
       "/Users/Mackerson/Desktop/Epicodus/CodeReviews/week13-review/api_build/app/models/park.rb": {
         "lines": [
+          1,
           1,
           null
         ]
@@ -475,7 +476,7 @@
           1,
           1,
           1,
-          0,
+          1,
           null,
           null
         ]
@@ -489,6 +490,6 @@
         ]
       }
     },
-    "timestamp": 1591987506
+    "timestamp": 1591987625
   }
 }
